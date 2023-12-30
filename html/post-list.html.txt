@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Engine - Posts</title>
+</head>
+<body>
+    <h2>Blog Posts</h2>
+    <ul th:each="post : ${posts}">
+        <li th:text="${post.title}"></li>
+        <p th:text="${post.content}"></p>
+        <hr>
+    </ul>
+</body>
+</html>

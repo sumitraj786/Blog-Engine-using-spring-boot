@@ -1,0 +1,5 @@
+// UserController.java
+@Controller
+public class UserController {
+    // User registration, login, and other user-related endpoints
+}

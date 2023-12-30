@@ -1,0 +1,5 @@
+// PostService.java
+public interface PostService {
+    List<Post> getAllPosts();
+    void savePost(Post post);
+}

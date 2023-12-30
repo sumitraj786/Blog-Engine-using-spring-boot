@@ -1,0 +1,5 @@
+// PostController.java
+@Controller
+public class PostController {
+    // Endpoints for creating, updating, and retrieving blog posts
+}
